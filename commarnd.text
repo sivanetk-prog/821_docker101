@@ -1,0 +1,10 @@
+docker -v
+docker ps
+docker ps --all
+docker run 
+docker run busybox ls
+docker run busybox ping google.com
+docker stop (ตามด้วย ID)
+docker rm (ตามด้วย ID)
+docker run eginx
+docker run -p 80:80 nginx , docker run -p 9000:80 nginx
